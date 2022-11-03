@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="todo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="todo.css" />
     <title>To do list</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main">
-        <div class="heading">
-            <h1 id="par"></h1>
-        </div>
-        <div class="container">
-            <input type="text" class="addIn">
-            <button class="btn" type="submit"><svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M63.2745 36.5979H43.4745V16.7979C43.4745 15.9227 43.1268 15.0833 42.5079 14.4644C41.8891 13.8456 41.0497 13.4979 40.1745 13.4979C39.2993 13.4979 38.4599 13.8456 37.841 14.4644C37.2221 15.0833 36.8745 15.9227 36.8745 16.7979V36.5979H17.0745C16.1993 36.5979 15.3599 36.9456 14.741 37.5644C14.1221 38.1833 13.7745 39.0227 13.7745 39.8979C13.7745 40.7731 14.1221 41.6125 14.741 42.2313C15.3599 42.8502 16.1993 43.1979 17.0745 43.1979H36.8745V62.9979C36.8745 63.8731 37.2221 64.7125 37.841 65.3313C38.4599 65.9502 39.2993 66.2979 40.1745 66.2979C41.0497 66.2979 41.8891 65.9502 42.5079 65.3313C43.1268 64.7125 43.4745 63.8731 43.4745 62.9979V43.1979H63.2745C64.1497 43.1979 64.9891 42.8502 65.6079 42.2313C66.2268 41.6125 66.5745 40.7731 66.5745 39.8979C66.5745 39.0227 66.2268 38.1833 65.6079 37.5644C64.9891 36.9456 64.1497 36.5979 63.2745 36.5979Z" fill="#BDFBD9"/>
-                </svg>
-            </button>
-        </div>
-        <div class="girl-block">
-            <img src="girl2.svg" alt="" id="girl">
-        </div>
-        <ul class="doList"></ul>
-        <!-- <img src="girl.svg" alt=""> -->
+      <div class="heading">
+        <h1 id="par"></h1>
+      </div>
+      <div class="container">
+        <input type="text" class="addIn" />
+        <button class="btn" type="submit">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 80 80"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M63.2745 36.5979H43.4745V16.7979C43.4745 15.9227 43.1268 15.0833 42.5079 14.4644C41.8891 13.8456 41.0497 13.4979 40.1745 13.4979C39.2993 13.4979 38.4599 13.8456 37.841 14.4644C37.2221 15.0833 36.8745 15.9227 36.8745 16.7979V36.5979H17.0745C16.1993 36.5979 15.3599 36.9456 14.741 37.5644C14.1221 38.1833 13.7745 39.0227 13.7745 39.8979C13.7745 40.7731 14.1221 41.6125 14.741 42.2313C15.3599 42.8502 16.1993 43.1979 17.0745 43.1979H36.8745V62.9979C36.8745 63.8731 37.2221 64.7125 37.841 65.3313C38.4599 65.9502 39.2993 66.2979 40.1745 66.2979C41.0497 66.2979 41.8891 65.9502 42.5079 65.3313C43.1268 64.7125 43.4745 63.8731 43.4745 62.9979V43.1979H63.2745C64.1497 43.1979 64.9891 42.8502 65.6079 42.2313C66.2268 41.6125 66.5745 40.7731 66.5745 39.8979C66.5745 39.0227 66.2268 38.1833 65.6079 37.5644C64.9891 36.9456 64.1497 36.5979 63.2745 36.5979Z"
+              fill="#BDFBD9"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="girl-block">
+        <img src="girl2.svg" alt="" id="girl" />
+      </div>
+      <ul class="doList"></ul>
+      <!-- <img src="girl.svg" alt=""> -->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="todo.js"></script>
-</body>
+  </body>
 </html>
